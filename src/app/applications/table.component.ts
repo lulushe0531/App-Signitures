@@ -25,7 +25,7 @@ export class TableComponent implements OnInit {
       {title: 'Behavior', name: 'behavior'}
     ];
     public page:number = 1;
-    public itemsPerPage:number = 10;
+    public itemsPerPage:number = 30;
     public maxSize:number = 5;
     public numPages:number = 1;
     public length:number = 0;
